@@ -1,0 +1,79 @@
+@import url("https://use.fontawesome.com/releases/v6.4.0/css/all.css");
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;700&family=Poppins:wght@300;400;500;700");
+
+.container {
+	width: 700px;
+	margin: 0 auto;
+	text-align: center;
+	/* background-color: #003049; */
+	color: #fdf0d5;
+}
+body {
+	background-color: #fdf0d5;
+}
+h1 {
+	font-size: 24px;
+}
+h2 {
+	font-size: 22px;
+}
+p {
+	font-size: 20px;
+}
+a {
+	text-decoration: none;
+}
+img {
+	width: 110px;
+	height: 110px;
+}
+ul {
+	list-style: none;
+	padding: 0;
+}
+li {
+	display: inline;
+	padding: 0px 10px;
+	margin: 0;
+}
+.img-circle {
+  border-radius: 50%;
+}
+.card {
+	padding: 20px;
+	box-shadow: 3px 5px 10px rgba(0,0,0,0.2);
+	background-color: #669bbc;
+}
+.btn-ivory {
+	display: inline-block;
+	font-size: 16px;
+	padding: 10px;
+	background-color: #ff8080;
+	border-radius: 20px;
+}
+.btn-ivory:hover {
+	background-color: #fc5757;
+}
+/* Pick a nice background-color, font-family, color, font-size and line-height for the <body>. Setting these font rules at the body-level will apply them on all basic text tags (<p>, <li>, etc.). */
+
+
+@media (max-width: 960px) {
+  /* For a screen < 960px, this CSS will be read */
+  .container {
+    width: 700px;
+  }
+}
+
+@media (max-width: 720px) {
+  /* For a screen < 720px, this CSS will be read */
+  .container {
+    width: 500px;
+  }
+}
+
+@media (max-width: 540px) {
+  /* For a screen < 540px, this CSS will be read */
+  .container {
+    width: 300px;
+  }
+}
